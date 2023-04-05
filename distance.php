@@ -23,8 +23,8 @@ $json = file_get_contents('http://192.168.0.102:8080/dump1090/data.json');
 $obj = json_decode($json, true);
 
 # Base station location
-$baseLat = 51.1541;
-$baseLon = -0.2255;
+$baseLat = -37.67401935421608;
+$baseLon = 176.0565999060186;
 
 # Datafile to log json data
 $dataFile = '/var/www/html/lunam/distance.json';
